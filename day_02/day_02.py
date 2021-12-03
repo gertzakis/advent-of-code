@@ -15,7 +15,7 @@ def measure_changes(data):
     return position
 
 
-def measure_changes_aim(data):
+def measure_changes_aim(data) -> dict:
 
     position = {"forward": 0, "depth": 0, "aim": 0}
     for item in data:

@@ -47,6 +47,7 @@ def main():
     with open("day_03/input.txt") as f:
         diagnostics = [line.rstrip() for line in f.readlines()]
 
+    print(type(diagnostics))
     diag_rates = calculate_rates(diagnostics)
     life_rates = calculate_life_rates(diagnostics)
 

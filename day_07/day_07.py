@@ -4,8 +4,6 @@ from tools.read_file import read_file
 
 def find_position(data: list, expensive: bool) -> float:
     data.sort()
-    position = 0
-    med =data[len(data) // 2]
     minfuel = float("inf")
 
     for i in range(min(data), max(data) + 1):
